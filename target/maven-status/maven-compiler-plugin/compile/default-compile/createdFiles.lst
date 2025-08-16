@@ -1,0 +1,8 @@
+com\camiloatb\ping_page\controller\InscripcionController.class
+com\camiloatb\ping_page\domain\Inscripcion.class
+com\camiloatb\ping_page\infra\cors\CorsConfiguration.class
+com\camiloatb\ping_page\PingPageApplication.class
+com\camiloatb\ping_page\infra\exceptions\GestorDeErrores.class
+com\camiloatb\ping_page\domain\InscripcionRegistro.class
+com\camiloatb\ping_page\infra\exceptions\GestorDeErrores$DatosErrorValidacion.class
+com\camiloatb\ping_page\domain\InscripcionRepository.class
