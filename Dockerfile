@@ -6,4 +6,4 @@ RUN mvn clean package -DskipTests && ls -l target && find /app -name "*.jar"
 FROM amazoncorretto:17-alpine-jdk
 WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
-ENTRYPOINT ["java", "-jar", "/app.jar"]
+ENTRYPOINT ["java", "-jar", "app.jar"]
